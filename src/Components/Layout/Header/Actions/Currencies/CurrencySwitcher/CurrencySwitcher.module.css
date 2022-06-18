@@ -1,0 +1,36 @@
+.container {
+  position: absolute;
+  padding: 20px;
+  top: 30px;
+  width: 114px;
+  font-size: 18px;
+  background-color: #fff;
+  animation: showCurrencies 0.45s 1;
+}
+
+.currencyItem {
+  cursor: pointer;
+}
+
+.errorMessage {
+  font-size: 12px;
+  color: red;
+}
+
+.currencyItem:hover {
+  color: #5ece7b;
+}
+
+.currencyItem:not(:last-child) {
+  padding-bottom: 21px;
+}
+
+@keyframes showCurrencies {
+  0% {
+    top: 50px;
+    opacity: 0;
+  }
+  100% {
+    top: 30px;
+  }
+}

@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+}
+
+.currencySign {
+  display: block;
+  margin: 28px 16px;
+  font-size: 18px;
+  color: #1d1f22;
+  cursor: pointer;
+}
+
+.arrow {
+  margin-left: 10px;
+  font-size: 12px;
+  vertical-align: middle;
+  transition: 0.3s;
+}
+
+.arrowUp {
+  transform: rotateZ(-180deg);
+}
